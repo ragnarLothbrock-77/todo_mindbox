@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+:root {
+  --main-bg-color: #121212;
+  --secondary-bg-color: #363636;
+  --main-color: #FFFFFF;
+  --contrast-color: #8687E7;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.wrapper {
+  width: 100%;
+  font-family: "Lato";
+  color: var(--main-color);
+  background: var(--main-bg-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary-bg-color);
+}
+
+.footerContent {
+  max-width: 1020px;
+  width: 100%;
+  display: flex;
+  padding: 30px 0;
+}
+
+.footerItem {
+  flex: 25%;
+}
+
+.addButton {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.addButtonWrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--contrast-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addButtonIcon {
+  width: 50px;
+  height: 50px;
+  fill: var(--main-color);
+}
+
+.footerItemWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerIcon {
+  width: 40px;
+  height: 40px;
+  fill: var(--main-color);
+}
+
+.footerText {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
